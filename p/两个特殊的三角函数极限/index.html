@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="前言 Maple 的《Calculus Study Guide》中对这两个三角函数极限的证明非常优雅，我将其抄录下来以供参考。\n$\\lim\\limits_{\\theta \\to 0} \\frac{\\sin\\theta}{\\theta}=1$ 在上图所示的单位圆内有以下三个区域 ">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="前言 Maple 的《Calculus Study Guide》1中对这两个三角函数极限的证明非常优雅，我将其抄录下来以供参考。\n$\\lim\\limits_{\\theta \\to 0} \\frac{\\sin\\theta}{\\theta}=1$ 在上图所示的单位圆内有以下三个区域 $$ area(sector\\ COB) = \\frac{|\\theta|}{2\\pi}\\pi \\cos^2(\\theta)=\\frac{|\\theta|}{2}\\cos^2(\\theta) $$$$ area(triangle\\ POB) = \\frac{1}{2}\\cos(\\theta)|\\sin(\\theta)| $$$$ area(sector\\ POA) = \\frac{|\\theta|}{2\\pi}\\pi(1)^2=\\frac{|\\theta|}{2} $$ 三个区域的面积满足不等式： ">
 <title>两个特殊的三角函数极限</title>
 
 <link rel='canonical' href='https://shujiaran.github.io/p/%E4%B8%A4%E4%B8%AA%E7%89%B9%E6%AE%8A%E7%9A%84%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90/'>
 
 <link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="两个特殊的三角函数极限">
-<meta property='og:description' content="前言 Maple 的《Calculus Study Guide》中对这两个三角函数极限的证明非常优雅，我将其抄录下来以供参考。\n$\\lim\\limits_{\\theta \\to 0} \\frac{\\sin\\theta}{\\theta}=1$ 在上图所示的单位圆内有以下三个区域 ">
+<meta property='og:description' content="前言 Maple 的《Calculus Study Guide》1中对这两个三角函数极限的证明非常优雅，我将其抄录下来以供参考。\n$\\lim\\limits_{\\theta \\to 0} \\frac{\\sin\\theta}{\\theta}=1$ 在上图所示的单位圆内有以下三个区域 $$ area(sector\\ COB) = \\frac{|\\theta|}{2\\pi}\\pi \\cos^2(\\theta)=\\frac{|\\theta|}{2}\\cos^2(\\theta) $$$$ area(triangle\\ POB) = \\frac{1}{2}\\cos(\\theta)|\\sin(\\theta)| $$$$ area(sector\\ POA) = \\frac{|\\theta|}{2\\pi}\\pi(1)^2=\\frac{|\\theta|}{2} $$ 三个区域的面积满足不等式： ">
 <meta property='og:url' content='https://shujiaran.github.io/p/%E4%B8%A4%E4%B8%AA%E7%89%B9%E6%AE%8A%E7%9A%84%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90/'>
 <meta property='og:site_name' content='Sran'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='三角函数' /><meta property='article:tag' content='极限' /><meta property='article:tag' content='Maple' /><meta property='article:published_time' content='2024-09-24T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-09-24T00:00:00&#43;00:00'/>
 <meta name="twitter:title" content="两个特殊的三角函数极限">
-<meta name="twitter:description" content="前言 Maple 的《Calculus Study Guide》中对这两个三角函数极限的证明非常优雅，我将其抄录下来以供参考。\n$\\lim\\limits_{\\theta \\to 0} \\frac{\\sin\\theta}{\\theta}=1$ 在上图所示的单位圆内有以下三个区域 ">
+<meta name="twitter:description" content="前言 Maple 的《Calculus Study Guide》1中对这两个三角函数极限的证明非常优雅，我将其抄录下来以供参考。\n$\\lim\\limits_{\\theta \\to 0} \\frac{\\sin\\theta}{\\theta}=1$ 在上图所示的单位圆内有以下三个区域 $$ area(sector\\ COB) = \\frac{|\\theta|}{2\\pi}\\pi \\cos^2(\\theta)=\\frac{|\\theta|}{2}\\cos^2(\\theta) $$$$ area(triangle\\ POB) = \\frac{1}{2}\\cos(\\theta)|\\sin(\\theta)| $$$$ area(sector\\ POA) = \\frac{|\\theta|}{2\\pi}\\pi(1)^2=\\frac{|\\theta|}{2} $$ 三个区域的面积满足不等式： ">
     </head>
     <body class="
     article-page
@@ -295,7 +295,7 @@
     
     
     <h1 id="前言">前言
-</h1><p>Maple 的《Calculus Study Guide》中对这两个三角函数极限的证明非常优雅，我将其抄录下来以供参考。</p>
+</h1><p>Maple 的《Calculus Study Guide》<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>中对这两个三角函数极限的证明非常优雅，我将其抄录下来以供参考。</p>
 <h1 id="limlimits_theta-to-0-fracsinthetatheta1">$\lim\limits_{\theta \to 0} \frac{\sin\theta}{\theta}=1$
 </h1><p><img src="/p/%E4%B8%A4%E4%B8%AA%E7%89%B9%E6%AE%8A%E7%9A%84%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90/1.png"
 	width="685"
@@ -330,7 +330,8 @@ $$<p>
 $$
 \cos\theta \leq \frac{\sin\theta}{|\theta|} \leq \frac{1}{\cos\theta}
 $$<p>
-当 $\theta \in (-\frac{\pi}{2},\frac{\pi}{2})$ 时, $\frac{\sin\theta}{\theta} \gt 0$ , 并且 $\frac{|\sin\theta|}{|\theta|} = \frac{\sin\theta}{\theta}$ ，因此，得到：
+当 $\theta \in (-\frac{\pi}{2},\frac{\pi}{2})$ 时, $\frac{\sin\theta}{\theta} \gt 0$ , 并且 $\frac{|\sin\theta|}{|\theta|} = \frac{\sin\theta}{\theta}$ ，
+因此，得到：
 </p>
 $$
 \cos\theta \leq \frac{\sin\theta}{\theta} \leq \frac{1}{\cos\theta}
@@ -354,27 +355,32 @@ $$<p>
 </h1><p>将 $\frac{1-\cos\theta}{\theta}$ 与 $1=\frac{1+\cos\theta}{1+\cos\theta}$ 相乘：
 </p>
 $$
-\frac{1-\cos\theta}{\theta} = \frac{1-\cos\theta}{\theta}\cdot\frac{1+\cos\theta}{1+\cos\theta}
-$$$$
-=\frac{1-\cos^2\theta}{\theta(1+\cos\theta)}
-$$$$
-=\frac{\sin^2\theta}{\theta(1+\cos\theta)}
-$$$$
-=\frac{\sin\theta}{\theta}\cdot\frac{\sin\theta}{1+\cos\theta}
+\begin{align}
+\frac{1-\cos\theta}{\theta} &= \frac{1-\cos\theta}{\theta}\cdot\frac{1+\cos\theta}{1+\cos\theta}\\
+&=\frac{1-\cos^2\theta}{\theta(1+\cos\theta)}\\
+&=\frac{\sin^2\theta}{\theta(1+\cos\theta)}\\
+&=\frac{\sin\theta}{\theta}\cdot\frac{\sin\theta}{1+\cos\theta}
+\end{align}
 $$<p>
 因此,
 </p>
 $$
-\lim\limits_{\theta \to 0} \frac{1-\cos(\theta)}{\theta}=
+\begin{align}
+\lim\limits_{\theta \to 0} \frac{1-\cos(\theta)}{\theta}&=
 (\lim\limits_{\theta \to 0} \frac{\sin\theta}{\theta})\cdot
 (\lim\limits_{\theta \to 0} \frac{\sin\theta}{1+\cos\theta})\\
-=1\times 0\\
-=0
-$$<h1 id="参考文献">参考文献
-</h1><ol>
-<li>Maplesoft. (2024). Calculus Study Guide Retrieved from <a class="link" href="https://www.maplesoft.com.cn/"  target="_blank" rel="noopener"
-    >https://www.maplesoft.com.cn/</a></li>
+&=1\times 0\\
+&=0
+\end{align}
+$$<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Maplesoft. (2024). Calculus Study Guide. Retrieved from <a class="link" href="https://www.maplesoft.com.cn/"  target="_blank" rel="noopener"
+    >https://www.maplesoft.com.cn/</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
 </ol>
+</div>
 
 </section>
 
